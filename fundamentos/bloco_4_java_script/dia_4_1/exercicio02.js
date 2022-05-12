@@ -1,4 +1,10 @@
 const a = 1;
 const b = 2;
 
-Math.max (a,b);
+
+if (a > b){
+    console.log(a);
+}
+else {
+    console.log ("")
+}
