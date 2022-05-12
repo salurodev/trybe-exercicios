@@ -1,4 +1,8 @@
-const a = 10;
-const b = 10;
+const a = 1;
+const b = 2;
 
 console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
