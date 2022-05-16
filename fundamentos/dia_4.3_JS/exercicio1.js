@@ -3,10 +3,16 @@
 //Com base nessas informações, crie um algoritmo que retorne o fatorial de 10.
 
 function fatorial (n){
-    let resultado = n;
-    for ( let i = 1; i < n; i +=1) {
-        resultado = resultado * i;
-    }
-    return resultado;
+let resultado = n;
+for ( let i = 1; i < n; i +=1) {
+resultado = resultado * i;
+}
+return resultado;
 }
 console.log(fatorial(10));
+
+function reverse (s){
+    return s.split("") . reverse () .join("");
+}
+let sss = reverse ("sandro");
+console.log (sss);
